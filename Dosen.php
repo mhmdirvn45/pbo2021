@@ -5,7 +5,11 @@ class Dosen extends Pegawai{
     public $jabatan_akademis;
 
 
-function __construct($nidn, $jbtn){
+function __construct($nip, $nama, $hp, $gaji, $nidn, $jbtn){
+    $this->nip = $nip;
+    $this->nama = $nama;
+    $this->no_hp = $hp;
+    $this->gaji_pokok = $gaji;
     $this->nidn = $nidn;
     $this->jabatan_akademis = $jbtn;
 }

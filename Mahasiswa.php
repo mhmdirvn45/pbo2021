@@ -14,15 +14,15 @@ class Mahasiswa extends User {
  }
  
  public function tampilkanAngkatan(){
-  echo substr($this->nim,5,-4). '<br>';
+  echo 'Angkatan: ' . substr($this->nim,5,-4). '<br>';
  }
  
  public function tampilkanUmur(){
-   echo date_diff(date_create($this->tanggal_lahir), date_create('today'))->y. '<br>';
+   echo 'Umur: ' . date_diff(date_create($this->tanggal_lahir), date_create('today'))->y. '<br>';
  }
  
  public function tampilkanNama(){
-     echo $this->nama. '<br>'. '<br>';
+     echo 'Nama: ' . $this->nama. '<br>'. '<br>';
  }
  
 }

@@ -15,7 +15,7 @@ function __construct($nip, $nama, $hp, $gaji){
 }
 
 public function tampilkanGaji(){
-    echo $this->gaji_pokok;
+
 }
 }
 ?>

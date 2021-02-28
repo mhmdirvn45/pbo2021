@@ -13,11 +13,11 @@ $rafi = new Mahasiswa('H1101191030','Muhammad Rafi H W','2001-01-23','Pria');
 $pegawai1 = new Pegawai('11215869','Pegawai Satu','081265584963','Rp. 8.500.000');
 $pegawai2 = new Pegawai('11216872','Pegawai Dua','085326987653','Rp. 8.000.000');
 
-$maba1 = new MahasiswaBaru('666779');
-$maba2 = new MahasiswaBaru('666789');
+$mhswbru1 = new MahasiswaBaru('H1101291030', 'Farid', '2002-02-30', 'Pria', '666779');
+$mhswbru2 = new MahasiswaBaru('H1101291062', 'Adrian', '2002-09-21', 'Pria', '666789');
 
-$dosen = new Dosen('111093','Pengajar');
-$dosen = new Dosen('111098', 'Seketaris Jurusan');
+$dosen = new Dosen('111093','Dosen Satu','089626983699','Rp. 5.000.000','66981','Pengajar');
+$dosen = new Dosen('111098','Dosen Dua','085366872188','Rp. 7.500.000','87546', 'Seketaris Jurusan');
 
 $user1 = new User('user1','admin1');
 $user2 = new User('user2','admin2');
@@ -25,7 +25,7 @@ $user2 = new User('user2','admin2');
 
 <html>
     <head>
-        <title>PHP</title>
+        <title>Pratikum Inheritance</title>
     </head>
     <body>
     

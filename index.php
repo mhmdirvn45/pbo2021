@@ -28,7 +28,7 @@ $user2 = new User('user2','admin2');
         <title>Pratikum Inheritance</title>
     </head>
     <body>
-    
+    <?php echo '<h3>Data Mahasiswa</h3>'; ?>
     <?php 
     $zaky->tampilkanAngkatan();
     $zaky->tampilkanUmur();

@@ -1,5 +1,5 @@
 <?php
-require_once ("User.php");
+namespace application;
 
 class Mahasiswa extends User{
     protected $nim;

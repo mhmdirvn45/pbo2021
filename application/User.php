@@ -1,4 +1,5 @@
 <?php
+namespace application;
 class User{
     protected $username;
     protected $password;

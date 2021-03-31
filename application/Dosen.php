@@ -1,5 +1,5 @@
 <?php
-require_once 'Pegawai.php';
+namespace application;
 class Dosen extends Pegawai{
     protected $nidn;
     protected $jabatan_akademis;
@@ -15,11 +15,11 @@ class Dosen extends Pegawai{
     }
 
     public function mengajar(){
-
+        echo $this->nama .' Sedang mengajar.<br>';
     }
 
     public function meneliti(){
-
+        echo $this->nama .' Sedang meneliti.<br>';
     }
 
     public function setNidn($nidn){

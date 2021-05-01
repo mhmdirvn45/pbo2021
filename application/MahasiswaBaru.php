@@ -1,5 +1,5 @@
 <?php
-namespace application;
+namespace App;
 class MahasiswaBaru extends Mahasiswa{
     protected $no_registrasi;
 
@@ -22,5 +22,9 @@ class MahasiswaBaru extends Mahasiswa{
     public function getNoRegistrasi(){
         return $this->no_registrasi;
     }
+        /*public function tuntaskan()
+    {
+        echo "bawa perbaikan";
+    }*/
 }
 ?>
